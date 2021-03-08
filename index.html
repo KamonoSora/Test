@@ -3,8 +3,8 @@
 <head>
 <meta charset='utf-8'>
 <FilesMatch "\.html$">
-    AddType application/x-httpd-php .html
-</FilesMatch>
+    AddHandler php5-script .html
+  </FilesMatch>
 <title>HTML内でのPHP処理</title>
 </head>
 <body>
